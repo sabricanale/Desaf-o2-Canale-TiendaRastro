@@ -3,8 +3,10 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 8vmin;  
   pointer-events: none;
+  display: flex;
+  align-items: start;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -28,11 +30,13 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navBar-contenedor{
+  background-color: white;
+  color: blue;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+
 }
+
