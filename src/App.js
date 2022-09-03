@@ -3,12 +3,15 @@ import './App.css';
 import NavBar from './components/NavBar/NavBar'
 import CartWidget from './components/CartWidget/CartWidget';
 import ItemListContainer from './components/CartWidget/ItemListContainer';
+import ItemCount from './components/ItemCount/ItemCount';
 
 function App() {
+  const stock = 8;
   return (
     <div className="App">
       <NavBar/>      
-      <ItemListContainer greeting='¡Hola!'/>    
+      <ItemListContainer greeting='Remeras'/>    
+      <ItemCount stock ={stock}/>
       <header className="App-header">
       </header>
     </div>
