@@ -3,7 +3,8 @@ import './App.css';
 import NavBar from './components/NavBar/NavBar'
 import CartWidget from './components/CartWidget/CartWidget';
 import ItemListContainer from './components/CartWidget/ItemListContainer';
-import ItemCount from './components/ItemCount/ItemCount';
+//import ItemCount from './components/ItemCount/ItemCount';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 
 
 
@@ -13,8 +14,12 @@ function App() {
     <div className="App">
       <NavBar/>      
       <ItemListContainer greeting='Productos'/>    
-      <ItemCount/>
       
+      <ItemDetailContainer/>      
+      
+      
+      {/*<ItemCount/>*/}      
+   
       
       <header className="App-header">
       </header>
