@@ -1,3 +1,7 @@
+import {Link} from 'react-router-dom'
+
+
+
 
 const ItemDetail = ({data}) => {
   return (
@@ -5,6 +9,7 @@ const ItemDetail = ({data}) => {
 
   <div className="row m-5">
   <h2 className="pb-4">Descripción del producto</h2>
+  <Link to={`/detalle/${data.id} `} >
     <div className="col-md-4">        
         <img height={'300px'} src= {data.img}  alt="Remera Negra"/>
     </div>
@@ -15,6 +20,7 @@ const ItemDetail = ({data}) => {
         <p className="card-text"><small class="text-muted">{data.detalle}</small></p>
       </div>
     </div>
+    </Link>
   </div>
 
     </>

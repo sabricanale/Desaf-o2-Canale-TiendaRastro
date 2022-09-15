@@ -1,8 +1,11 @@
 import logoCarrito from '../Assets/Carrito.png'
-
+import { NavLink } from 'react-router-dom'
 const CartWidget = () => {
   return (
-    <img src={logoCarrito} className='LogoCarrito'/>
+    <NavLink to='/'>
+        <img src={logoCarrito} className='LogoCarrito'/>
+    </NavLink>
+    
   )
 }
 

@@ -7,3 +7,17 @@
     height: 520px;
     width: 420px;
 }
+
+.gorra{
+    height: 250px;
+}
+
+.llavero{
+    height: 250px;
+    width: 280px;
+}
+
+.card{
+    margin: 100px;
+    display: inline-flex;
+}

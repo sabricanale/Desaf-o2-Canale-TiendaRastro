@@ -1,6 +1,6 @@
 
 
-const Item = ({title, price, img}) => {
+const Item = ({id, img, title, price}) => {
   return (
     <>
       <div className="m-4">
@@ -10,6 +10,8 @@ const Item = ({title, price, img}) => {
         <div>
             <h4>{title}</h4>
             <h6>{price}</h6>
+            
+            
         </div>
     </div>
     </>

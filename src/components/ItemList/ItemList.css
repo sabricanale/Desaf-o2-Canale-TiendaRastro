@@ -1,0 +1,9 @@
+.tarjeta {
+    margin: 20px;
+    display: inline-block;
+}
+
+.card{
+    height: 20px;
+    margin: 20px;
+}
