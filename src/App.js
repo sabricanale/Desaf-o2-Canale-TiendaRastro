@@ -12,6 +12,7 @@ import ItemDetailContainer from './components/pages/ItemDetailContainer/ItemDeta
 function App() {
   const stock = 10
   return (
+    <>
     <BrowserRouter>
     <div className="App">
       <NavBar/>  
@@ -22,7 +23,7 @@ function App() {
       </Routes>    
     </div>
     </BrowserRouter>
-    
+    </>
   );
 }
 
